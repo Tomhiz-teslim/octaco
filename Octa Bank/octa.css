@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --seamblue: #106476;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Maincontainer {
+    width: 1375px;
+    height: 875px;
+    border-radius: 20px;
+}
+
+.Maincontainer header {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid #F3F3F3;
+    width: 1370px;
+    height: 90px;
+    border-top: 20px;
+}
+
+.Maincontainer header .logo {
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.Maincontainer header .Menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 624px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 380px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.Maincontainer header .Menu li {
+    list-style: none;
+}
+
+.Maincontainer header .Menu .Personal {
+    color: #106476;
+    text-decoration: none;
+}
+
+.Maincontainer header .Menu .B, .D, .C {
+    text-decoration: none;
+    color: black;
+}
+
+.Maincontainer .Container2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Maincontainer .Container2 .Content {
+    margin-top: 108px;
+    width: 591px;
+    height: 405px;
+    margin-left: 65px;
+}
+
+.Maincontainer .Container2 .Content .Hero {
+    width: 311px;
+    height: 162px;
+    font-size: 32px;
+    font-weight: 400;
+}
+.Maincontainer .Container2 .Content .Hero .seam, .fin {
+    color: #106476;
+}
+.Maincontainer .Container2 .Content .Paragraph {
+    margin-top: 24px;
+    margin-left: 5px;
+    width: 591px;
+    height: 94 ;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+
+
+.Maincontainer .Container2 .Content .Bottom {
+    margin-top: 50px;
+    width: 306px;
+    height: 86px;
+   
+}
+
+.Maincontainer .Container2 .Content .Bottom .CBN{
+    font-size: 10px;
+}
+
+.Maincontainer .Container2 .Content .Bottom .Apple {
+    margin-top: 18px;
+    width: 103px;
+    height: 41px;
+}
+
+.Maincontainer .Container2 .Content .Bottom .Google {
+    width: 122px;
+    height: 41px;
+}
+
+.Maincontainer .Container2 .Phonebackground {
+    border: 1px solid;
+    width: 604px ;
+    height: 460px;
+    background-color: #106476;
+    margin-top: 20px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+   justify-content: center;
+}
+
+.Maincontainer .Container2 .Phonebackground .Phone {
+    height: 600px;
+    margin-right: 150px;
+    padding-bottom: 70px;
+}
+
+
+
+
+
